@@ -39,3 +39,15 @@ function generatepass(){
 // let mystring =  "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+"
 // var randomindex= Math.floor(Math.random()*mystring.length)
 // console.log(randomindex)
+
+
+// copy paste function
+function copyfunction(){
+    var copyText1= document.getElementById('password')
+    copyText1.select()
+    document.execCommand("copy")
+    alert("copied text:" + copyText1.value)
+
+    console.log(copyText1)
+
+}
